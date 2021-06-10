@@ -1,0 +1,118 @@
+/* ------ BASIC SETUP ------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 18px;
+  color: hsl(227, 10%, 46%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+}
+
+.section-card {
+  background-color: hsl(185, 75%, 39%);
+  height: 95vh;
+  position: relative;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.background-addition-top {
+  position: absolute;
+  top: -200px;
+  left: 100px;
+  width: 500px;
+}
+
+.background-addition-bottom {
+  position: absolute;
+  max-width: 500px;
+  left: 800px;
+  top: 400px;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  height: 450px;
+  z-index: 9999;
+}
+
+/* ------ CARD CONTENT ------ */
+/* ------ TOP CARD ------ */
+.row-top {
+  background-image: url(images/bg-pattern-card.svg);
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* ------ MIDDLE CARD ------ */
+.row-middle img {
+  border-radius: 50%;
+  border: 3px solid #FFFFFF;
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: -25%;
+  left: 35%;
+}
+
+.row-middle {
+  text-align: center;
+  background-color: #ffffff;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+
+.row-middle span {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+}
+
+.city {
+  font-size: 80%;
+}
+
+/* ------ BOTTOM CARD ------ */
+.row-bottom {
+  background-color: gray;
+  background-color: #ffffff;
+  height: 100px;
+  border-radius: 0 0 10px 10px;
+}
+
+.box {
+  width: 32.26%;
+  display: inline-block;
+  padding: 8%;
+  text-align: center;
+}
+
+.box span {
+  font-size: 80%;
+}
+
+.number {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  padding-bottom: 5px;
+}
+
+/* ------ ATTRIBUTION ------ */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
