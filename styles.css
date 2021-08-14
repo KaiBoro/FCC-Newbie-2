@@ -9,7 +9,7 @@ html,
 body {
   font-size: 18px;
   color: hsl(227, 10%, 46%);
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -23,16 +23,16 @@ body {
 
 .background-addition-top {
   position: absolute;
-  top: -200px;
-  left: 100px;
-  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -90%);
 }
 
 .background-addition-bottom {
   position: absolute;
-  max-width: 500px;
-  left: 800px;
-  top: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -10%);
 }
 
 .card {
@@ -56,7 +56,7 @@ body {
 /* ------ MIDDLE CARD ------ */
 .row-middle img {
   border-radius: 50%;
-  border: 3px solid #FFFFFF;
+  border: 3px solid #ffffff;
   width: 100px;
   height: auto;
   position: absolute;
